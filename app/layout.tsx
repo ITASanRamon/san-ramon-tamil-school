@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "San Ramon Tamil School",
-  description: "dedicated to teaching the Tamil language and promoting Tamil culture to students of all ages and proficiency levels—from beginners to advanced learners.",
+  description: "Dedicated to teaching the Tamil language and promoting Tamil culture to students of all ages and proficiency levels from beginners to advanced learners.",
 };
 
 export default function RootLayout({
