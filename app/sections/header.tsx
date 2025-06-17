@@ -1,10 +1,10 @@
 const Header = () => {
   const links = [{
     name:"Mission",
-    link:"/"
+    href:"#mission"
   },{
     name:"Our School",
-    href:"/"
+    href:"#our-school"
   },
     {
       name:"School Resgistration",
@@ -18,7 +18,7 @@ const Header = () => {
     },
     {
       name:"Contact Us",
-      href:"/"
+      href:"#contact-us"
     }]
   return(
     <nav>
@@ -26,7 +26,6 @@ const Header = () => {
           {links.map(
               (link, index) => {
                 return(
-
                   <a href={link.href} target={link.target || "_self"} className="links m-5 w-100 h-10 cursor-pointer content-center text-center border-rounded"  key={index}>{link.name}</a>)
               }
           )}

@@ -20,7 +20,7 @@ const OUR_SCHOOL_BADGES = [
 const OurSchoolSection = () => {
 
     return (
-        <section>
+        <section id="our-school">
             <h2>Our School</h2>
             <ul className="flex w-300 justify-self-center items-center">
                 {OUR_SCHOOL_BADGES.map((badge, index) => {

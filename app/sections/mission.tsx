@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MissionSection = () => {
     return (
-        <section>
+        <section id="mission">
            <h2>Mission</h2>
             <div className="flex">
             <p> <b>San Ramon Tamil School (SRTS)</b> is dedicated to teaching the Tamil language and promoting Tamil culture to
